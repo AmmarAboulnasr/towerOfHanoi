@@ -1,0 +1,41 @@
+* {
+  font-family: sans-serif;
+}
+.tower {
+	border: 2px solid black;
+	border-radius: 8px;
+	width: 30vw;
+	min-width: 30px;
+	height: 50vw;
+	display: inline-block;
+	margin-right: 5px;
+	background-color: grey;
+}
+
+.disk {
+	height: 20px;
+	background-color: orange;
+	border: 2px solid black;
+	margin: 5px;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.selected :last-child {
+	border: 5px solid red;
+}
+
+.win {
+  font-size: 50px;
+  color: red;
+}
+
+#diskCountField {
+  width: 20vw;
+  height: 20px;
+}
+
+#startButton {
+  height: 25px;
+}
